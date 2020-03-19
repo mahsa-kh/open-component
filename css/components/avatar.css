@@ -1,0 +1,7 @@
+.avatar {
+  border-radius: 50%;
+  width: 50px; /*to make the picture small as we want*/
+  position: absolute;
+  right: 60px;
+  top: 52px;
+}

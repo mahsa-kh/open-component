@@ -1,0 +1,44 @@
+/* Your tabs CSS code here */
+.tabs {
+  /*background: white;*/
+  background: rgba(220, 220, 220, 0.5);
+  color: black;
+  padding: 10px 10px 0 10px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin: 5px;
+}
+
+/*padding top right bottom left*/
+
+.tabs .tabs-item a {
+  color: #687466;
+  padding: 10px;
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 0.8;
+
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+  margin: 0;
+}
+
+
+.tabs .tabs-item.active {
+  opacity: 1;
+  border-bottom: 2px solid #d1cebd;
+}
+
+
+/*  top corner of the first one and top corner of the last of */
+.header .tabs:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.header .tabs:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+
+
